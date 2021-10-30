@@ -59,8 +59,8 @@ for file_no in range(csv_number[0], csv_number[1] + 1):
             final_file_2 = temporary_file.fold(period=time_period_file2)
 
             final_file_1.scatter()
-            plt.savefig(output_dir + "\\" + starstr + f"[{row}][normal].png")  # Plot 1
+            plt.savefig(output_dir + "\\" + starstr + f"[{row}][normal][index {i}].png")  # Plot 1
 
             final_file_2.scatter()
-            plt.savefig(output_dir + "\\" + starstr + f"[{row}][arange].png")  # Plot 2
+            plt.savefig(output_dir + "\\" + starstr + f"[{row}][arange][index {i}].png")  # Plot 2
             plt.close('all')  # This is important to include otherwise the system might crash
