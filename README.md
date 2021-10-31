@@ -25,6 +25,11 @@ Download the latest version of the Chrome driver from - <https://sites.google.co
 
 After the download is complete, move the driver into Program Files (x86) which is located in the C drive.
 
+The program will ask for one input
+
+  - **Range of RA** - Enter the range of RA values you want to download data from. <br />
+    For example if you want to download data from all stars with RA 90 to 95 just input "90 95" without the quotes.
+
 ### 3. LightCurve
 
 It is advisable to run this code in Jupyter Notebook (Installation - <https://jupyter.org/install.html>)
@@ -46,7 +51,7 @@ The program will ask you for two inputs
 ---
 ## Contributors
 
-- Advith Desu
+- Advith Desu (Github profile - <https://github.com/AdvithDesu>)
 - Nitya
 - Manasa
-- Mokshith
+- Mokshith Thakkilapati (Github profile - <https://github.com/mokshith002>)
