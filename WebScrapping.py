@@ -10,13 +10,16 @@ import time
 PATH = "C:\\Program Files (x86)\\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
+# For example if you want to download data from all stars with RA 90 to 95 just input "90 95" without the quotes ofc
+RA_range = list(map(int, input("Enter the range of RA values you want to download from: ")))
+
 
 def Get_from_RA(times):
 
     # variables:
-    start = times / 2
+    start = times
     end = start + 0.5
-    index = times + 1
+    index = 2*times + 1
 
     try:
         WebDriverWait(driver, 15).until(
@@ -88,5 +91,8 @@ time.sleep(1)
 # Clicking on the "Advanced Search" option
 driver.find_element_by_link_text("Advanced Search").click()
 
-for i in range(5):
+for i in range(RA_range[0], RA_range[1] + 1):
     Get_from_RA(i)
+    Get_from_RA(i + 0.5)
+    
+print("download completed")
