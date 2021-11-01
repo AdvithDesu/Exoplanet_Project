@@ -18,6 +18,8 @@ The following are the modules you will need for the code to run smoothly:
   - **Numpy**
   - **Matplotlib**
 
+---
+
 ### 2. Web-Scrapping
 
 Download the latest version of the Chrome driver from - <https://sites.google.com/a/chromium.org/chromedriver/downloads> <br />
@@ -29,6 +31,8 @@ The program will ask for one input
 
   - **Range of RA** - Enter the range of RA values you want to download data from. <br />
     For example if you want to download data from all stars with RA 90 to 95 just input "90 95" without the quotes.
+
+---
 
 ### 3. LightCurve
 
@@ -51,7 +55,7 @@ The program will ask you for two inputs
 ---
 ## Contributors
 
-- Advith Desu (Github profile - <https://github.com/AdvithDesu>)
-- Nitya
-- Manasa
-- Mokshith Thakkilapati (Github profile - <https://github.com/mokshith002>)
+- **Advith Desu** (Github profile - <https://github.com/AdvithDesu>)
+- **Nitya Shah** (Github profile - <https://github.com/nitya-6>)
+- **Manasa SK** (Github profile - <https://github.com/manasa-sk>)
+- **Mokshith Thakkilapati** (Github profile - <https://github.com/mokshith002>)
